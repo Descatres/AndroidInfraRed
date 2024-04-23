@@ -73,13 +73,13 @@ One cycle always consists of an an _ON_ and an _OFF_ signal (the image below sho
 
 The length of a single period _T_ in microseconds equals 1 000 000 (1 second in microseconds) divided by the frequency _f_ (in _Hertz_) 
 
-> _T_ = 1 000 000 _ms_ / _f_
+> _T_ = 1 000 000 _μs_ / _f_
 
 For example
 
-> _T_ = 1 000 000 _ms_/ 33000 _Hz_ ≈ 30.3 _ms_
+> _T_ = 1 000 000 _μs_/ 33000 _Hz_ ≈ 30.3 _μs_
 
-To covert a microsecond pattern to a cycle pattern, divide each value by _T_
+To convert a microsecond pattern to a cycle pattern, divide each value by _T_
 
 To convert a cycle pattern to a microsecond pattern, simply multiply each value by _T_
 
